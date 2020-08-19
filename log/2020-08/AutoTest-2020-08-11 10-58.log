@@ -1,0 +1,50 @@
+10:58:22  [INFO ] : 没有匹配到关键字
+10:58:22  [INFO ] : 没有匹配到关键字
+10:58:22  [INFO ] : 没有匹配到关键字
+10:58:22  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"fb83be727e3240209fa9332c291d97a6"}
+10:58:22  [INFO ] : 测试通过！
+10:58:22  [INFO ] : 外部断言通过
+10:58:22  [INFO ] : 在keyword中调试输出返回的结果是{"status":406,"msg":"用户已经在别处登录"}
+10:58:22  [INFO ] : 测试失败！
+10:58:22  [INFO ] : 外部断言失败
+10:58:22  [ERROR] : 保存参数失败
+10:58:22  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.saveParam(KeywordOfInter.java:117) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:33) [classes/:?]
+10:58:22  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"您还未登录"}
+10:58:22  [INFO ] : 测试失败！
+10:58:22  [INFO ] : 外部断言失败
+10:58:22  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+10:58:22  [INFO ] : 测试通过！
+10:58:22  [INFO ] : 外部断言通过
+10:58:22  [INFO ] : 没有匹配到关键字
+10:58:22  [INFO ] : 没有匹配到关键字
+10:58:22  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"45784e7217f34bde87a96ba832f34dcc"}
+10:58:22  [INFO ] : 测试通过！
+10:58:22  [INFO ] : 外部断言通过
+10:58:23  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1023"}
+10:58:23  [INFO ] : 测试失败！
+10:58:23  [INFO ] : 外部断言失败
+10:58:23  [INFO ] : 没有匹配到关键字
+10:58:23  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"9def42188a134ce18778d65e129a1455"}
+10:58:23  [INFO ] : 测试通过！
+10:58:23  [INFO ] : 外部断言通过
+10:58:23  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+10:58:23  [INFO ] : 测试失败！
+10:58:23  [INFO ] : 外部断言失败
+10:58:23  [INFO ] : 没有匹配到关键字
+10:58:23  [INFO ] : 没有匹配到关键字
+10:58:23  [INFO ] : 没有匹配到关键字
+10:58:23  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"ee5f1831d4df430dadde10304a93f359"}
+10:58:23  [INFO ] : 测试通过！
+10:58:23  [INFO ] : 外部断言通过
+10:58:23  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"77"}
+10:58:23  [INFO ] : 测试通过！
+10:58:23  [INFO ] : 外部断言通过
+10:58:23  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"查询成功","nickname":"roy","id":"77","describe":"roysensel"}
+10:58:23  [INFO ] : 测试通过！
+10:58:23  [INFO ] : 外部断言通过
+10:58:23  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+10:58:23  [INFO ] : 测试通过！
+10:58:23  [INFO ] : 外部断言通过

@@ -1,0 +1,6 @@
+15:49:26  [INFO ] : auth接口的返回信息{"status":200,"msg":"success","token":"b7d422e179514b4c943468a6e3cbcef8"}
+15:49:26  [INFO ] : token的值是b7d422e179514b4c943468a6e3cbcef8
+15:49:26  [INFO ] : register注册接口返回{"status":405,"msg":"非法请求"}
+15:49:55  [INFO ] : auth接口的返回信息{"status":200,"msg":"success","token":"68e9ce0ae0af403dbd99d006640a25ef"}
+15:49:55  [INFO ] : token的值是68e9ce0ae0af403dbd99d006640a25ef
+15:49:55  [INFO ] : register注册接口返回{"status":405,"msg":"非法请求"}

@@ -1,0 +1,6 @@
+10:40:58  [DEBUG] : CookieSpec selected: default
+10:40:58  [DEBUG] : Auth cache not set in the context
+10:40:58  [DEBUG] : Connection request: [route: {}->http://web.juhe.cn:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+10:40:58  [DEBUG] : Connection leased: [id: 0][route: {}->http://web.juhe.cn:8080][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+10:40:58  [DEBUG] : Opening connection {}->http://web.juhe.cn:8080
+10:40:58  [DEBUG] : Connecting to web.juhe.cn/218.11.2.68:8080

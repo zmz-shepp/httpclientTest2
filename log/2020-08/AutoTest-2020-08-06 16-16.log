@@ -1,0 +1,15 @@
+16:16:47  [ERROR] : java.lang.IllegalArgumentException: Illegal character in query at index 70: https://sp0.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?query=127.0.0.1 &resource_id=6006&ie=utf8&oe=gbk
+java.lang.IllegalArgumentException: Illegal character in query at index 70: https://sp0.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?query=127.0.0.1 &resource_id=6006&ie=utf8&oe=gbk
+	at inter.HttpClientKw.doGet(HttpClientKw.java:188) [classes/:?]
+	at post.ZhuJsonKwTest.main(ZhuJsonKwTest.java:9) [classes/:?]
+Caused by: java.net.URISyntaxException: Illegal character in query at index 70: https://sp0.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?query=127.0.0.1 &resource_id=6006&ie=utf8&oe=gbk
+	at java.net.URI$Parser.fail(URI.java:2848) ~[?:1.8.0_181]
+	at java.net.URI$Parser.checkChars(URI.java:3021) ~[?:1.8.0_181]
+	at java.net.URI$Parser.parseHierarchical(URI.java:3111) ~[?:1.8.0_181]
+	at java.net.URI$Parser.parse(URI.java:3053) ~[?:1.8.0_181]
+	at java.net.URI.<init>(URI.java:588) ~[?:1.8.0_181]
+	at java.net.URI.create(URI.java:850) ~[?:1.8.0_181]
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:66) ~[httpclient-4.5.11.jar:4.5.11]
+	at inter.HttpClientKw.doGet(HttpClientKw.java:158) ~[classes/:?]
+	... 1 more
+16:16:47  [INFO ] : java.lang.IllegalArgumentException: Illegal character in query at index 70: https://sp0.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?query=127.0.0.1 &resource_id=6006&ie=utf8&oe=gbk

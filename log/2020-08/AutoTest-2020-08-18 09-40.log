@@ -1,0 +1,7 @@
+09:40:48  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"52d5f075c9fb4f0587840ef08a1d64c2"}
+09:40:48  [INFO ] : 测试通过！
+09:40:48  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1065"}
+09:40:48  [INFO ] : 测试通过！
+09:40:49  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"查询成功","nickname":"这是个老师","id":"1065","describe":"测试账号"}
+09:40:49  [INFO ] : 测试通过！
+09:40:49  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}

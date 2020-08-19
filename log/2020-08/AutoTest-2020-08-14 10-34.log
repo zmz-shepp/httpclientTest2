@@ -1,0 +1,142 @@
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [ERROR] : 解析失败，请检查jsonPath表达式
+10:34:05  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:71) [classes/:?]
+10:34:05  [INFO ] : 外部断言失败
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [ERROR] : 解析失败，请检查jsonPath表达式
+10:34:05  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:71) [classes/:?]
+10:34:05  [INFO ] : 外部断言失败
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [ERROR] : 解析失败，请检查jsonPath表达式
+10:34:05  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:71) [classes/:?]
+10:34:05  [INFO ] : 外部断言失败
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [ERROR] : 解析失败，请检查jsonPath表达式
+10:34:05  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:71) [classes/:?]
+10:34:05  [INFO ] : 外部断言失败
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [ERROR] : 解析失败，请检查jsonPath表达式
+10:34:05  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:71) [classes/:?]
+10:34:05  [INFO ] : 外部断言失败
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [ERROR] : 解析失败，请检查jsonPath表达式
+10:34:05  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:71) [classes/:?]
+10:34:05  [INFO ] : 外部断言失败
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [ERROR] : 解析失败，请检查jsonPath表达式
+10:34:05  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:71) [classes/:?]
+10:34:05  [INFO ] : 外部断言失败
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [ERROR] : 解析失败，请检查jsonPath表达式
+10:34:05  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:71) [classes/:?]
+10:34:05  [INFO ] : 外部断言失败
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [ERROR] : 解析失败，请检查jsonPath表达式
+10:34:05  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:71) [classes/:?]
+10:34:05  [INFO ] : 外部断言失败
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [ERROR] : 解析失败，请检查jsonPath表达式
+10:34:05  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:71) [classes/:?]
+10:34:05  [INFO ] : 外部断言失败
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [ERROR] : 解析失败，请检查jsonPath表达式
+10:34:05  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:71) [classes/:?]
+10:34:05  [INFO ] : 外部断言失败
+10:34:05  [INFO ] : 没有匹配到关键字
+10:34:05  [ERROR] : 解析失败，请检查jsonPath表达式
+10:34:05  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:71) [classes/:?]
+10:34:05  [INFO ] : 外部断言失败
+10:34:34  [INFO ] : 没有匹配到关键字
+10:34:34  [INFO ] : 没有匹配到关键字
+10:34:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"cafe6b52edd549a5a1b03beac6b9c0d0"}
+10:34:35  [INFO ] : 测试通过！
+10:34:35  [INFO ] : 外部断言通过
+10:34:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+10:34:35  [INFO ] : 测试通过！
+10:34:35  [INFO ] : 外部断言通过
+10:34:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"查询成功","nickname":"Will_Testing","id":"1","describe":"擅长Python、Java自动化开发；是特斯汀学院最可爱的老师"}
+10:34:35  [INFO ] : 测试通过！
+10:34:35  [INFO ] : 外部断言通过
+10:34:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+10:34:35  [INFO ] : 测试通过！
+10:34:35  [INFO ] : 外部断言通过
+10:34:35  [INFO ] : 没有匹配到关键字
+10:34:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"902410c3c9ec453e990186a32b1e1a56"}
+10:34:35  [INFO ] : 测试通过！
+10:34:35  [INFO ] : 外部断言通过
+10:34:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1023"}
+10:34:35  [INFO ] : 测试失败！
+10:34:35  [INFO ] : 外部断言失败
+10:34:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"1cf4f0ed34484c90b3c10aa31fee8a8d"}
+10:34:35  [INFO ] : 测试通过！
+10:34:35  [INFO ] : 外部断言通过
+10:34:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+10:34:35  [INFO ] : 测试失败！
+10:34:35  [INFO ] : 外部断言失败
+10:34:35  [INFO ] : 没有匹配到关键字
+10:34:35  [INFO ] : 没有匹配到关键字
+10:34:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"6b7dd51127be4d7bacd4c27d5ab49c1d"}
+10:34:35  [INFO ] : 测试通过！
+10:34:35  [INFO ] : 外部断言通过
+10:34:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"77"}
+10:34:35  [INFO ] : 测试通过！
+10:34:35  [INFO ] : 外部断言通过
+10:34:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"查询成功","nickname":"roy","id":"77","describe":"roysensel"}
+10:34:35  [INFO ] : 测试通过！
+10:34:35  [INFO ] : 外部断言通过
+10:34:35  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+10:34:35  [INFO ] : 测试通过！
+10:34:35  [INFO ] : 外部断言通过

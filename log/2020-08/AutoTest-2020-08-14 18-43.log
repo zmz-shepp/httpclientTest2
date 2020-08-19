@@ -1,0 +1,763 @@
+18:43:12  [INFO ] : 没有匹配到关键字
+18:43:12  [INFO ] : 没有匹配到关键字
+18:43:12  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"f72111ba153644dcafa0d6ac77c0fdec"}
+18:43:12  [INFO ] : 测试通过！
+18:43:12  [INFO ] : 外部断言通过
+18:43:13  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"ed687d0fcedb448aa7256be7001a209e"}
+18:43:13  [INFO ] : 测试通过！
+18:43:13  [INFO ] : 外部断言通过
+18:43:13  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"d0711c0441434359baac76097d2b4525"}
+18:43:13  [INFO ] : 没有匹配到关键字
+18:43:13  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"e1c5b8f9c3824d9d86fd7c583922f6d8"}
+18:43:13  [INFO ] : 测试通过！
+18:43:13  [INFO ] : 外部断言通过
+18:43:13  [INFO ] : 在keyword中调试输出返回的结果是{"status":201,"msg":"success"}
+18:43:13  [INFO ] : 测试失败！
+18:43:13  [INFO ] : 外部断言失败
+18:43:13  [INFO ] : 没有匹配到关键字
+18:43:13  [INFO ] : 没有匹配到关键字
+18:43:13  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:13  [INFO ] : 测试通过！
+18:43:13  [INFO ] : 外部断言通过
+18:43:13  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:13  [INFO ] : 测试通过！
+18:43:13  [INFO ] : 外部断言通过
+18:43:13  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:13  [INFO ] : 测试通过！
+18:43:13  [INFO ] : 外部断言通过
+18:43:13  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:13  [INFO ] : 测试通过！
+18:43:13  [INFO ] : 外部断言通过
+18:43:13  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"febc245f2bd14ac6aa108e9849232f82"}
+18:43:13  [INFO ] : 测试通过！
+18:43:13  [INFO ] : 外部断言通过
+18:43:13  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+18:43:13  [INFO ] : 测试通过！
+18:43:13  [INFO ] : 外部断言通过
+18:43:13  [INFO ] : 在keyword中调试输出返回的结果是{"status":406,"msg":"用户已经在别处登录"}
+18:43:13  [INFO ] : 测试通过！
+18:43:13  [INFO ] : 外部断言通过
+18:43:13  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+18:43:13  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"a2f148273c7c4972a428024ed5862dc4"}
+18:43:13  [INFO ] : 测试通过！
+18:43:13  [INFO ] : 外部断言通过
+18:43:13  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+18:43:13  [ERROR] : 解析失败，请检查jsonPath表达式
+18:43:13  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:78) [classes/:?]
+18:43:13  [INFO ] : 外部断言失败
+18:43:13  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:13  [INFO ] : 测试通过！
+18:43:13  [INFO ] : 外部断言通过
+18:43:13  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+18:43:13  [ERROR] : 解析失败，请检查jsonPath表达式
+18:43:13  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:78) [classes/:?]
+18:43:13  [INFO ] : 外部断言失败
+18:43:13  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1201"}
+18:43:13  [INFO ] : 测试失败！
+18:43:13  [INFO ] : 外部断言失败
+18:43:13  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1206"}
+18:43:13  [INFO ] : 测试失败！
+18:43:13  [INFO ] : 外部断言失败
+18:43:13  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:13  [INFO ] : 测试通过！
+18:43:13  [INFO ] : 外部断言通过
+18:43:14  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:14  [INFO ] : 测试通过！
+18:43:14  [INFO ] : 外部断言通过
+18:43:14  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"893"}
+18:43:14  [INFO ] : 测试失败！
+18:43:14  [INFO ] : 外部断言失败
+18:43:14  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:14  [INFO ] : 测试通过！
+18:43:14  [INFO ] : 外部断言通过
+18:43:14  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:14  [INFO ] : 测试通过！
+18:43:14  [INFO ] : 外部断言通过
+18:43:14  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+18:43:14  [ERROR] : 解析失败，请检查jsonPath表达式
+18:43:14  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:78) [classes/:?]
+18:43:14  [INFO ] : 外部断言失败
+18:43:14  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:14  [INFO ] : 测试通过！
+18:43:14  [INFO ] : 外部断言通过
+18:43:14  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+18:43:14  [ERROR] : 解析失败，请检查jsonPath表达式
+18:43:14  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:78) [classes/:?]
+18:43:14  [INFO ] : 外部断言失败
+18:43:14  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:14  [INFO ] : 测试通过！
+18:43:14  [INFO ] : 外部断言通过
+18:43:14  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:14  [INFO ] : 测试通过！
+18:43:14  [INFO ] : 外部断言通过
+18:43:14  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:14  [INFO ] : 测试通过！
+18:43:14  [INFO ] : 外部断言通过
+18:43:14  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:14  [INFO ] : 测试通过！
+18:43:14  [INFO ] : 外部断言通过
+18:43:14  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:14  [INFO ] : 测试通过！
+18:43:14  [INFO ] : 外部断言通过
+18:43:14  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:14  [INFO ] : 测试通过！
+18:43:14  [INFO ] : 外部断言通过
+18:43:14  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:14  [INFO ] : 测试通过！
+18:43:14  [INFO ] : 外部断言通过
+18:43:14  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+18:43:14  [ERROR] : 解析失败，请检查jsonPath表达式
+18:43:14  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:78) [classes/:?]
+18:43:14  [INFO ] : 外部断言失败
+18:43:14  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+18:43:14  [INFO ] : 测试通过！
+18:43:14  [INFO ] : 外部断言通过
+18:43:14  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+18:43:14  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"f82be51b8a694c3da095ebc9cf767afc"}
+18:43:14  [INFO ] : 测试通过！
+18:43:14  [INFO ] : 外部断言通过
+18:43:14  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:14  [INFO ] : 测试通过！
+18:43:14  [INFO ] : 外部断言通过
+18:43:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:15  [INFO ] : 测试通过！
+18:43:15  [INFO ] : 外部断言通过
+18:43:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:15  [INFO ] : 测试通过！
+18:43:15  [INFO ] : 外部断言通过
+18:43:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+18:43:15  [INFO ] : 测试通过！
+18:43:15  [INFO ] : 外部断言通过
+18:43:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+18:43:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"e788697fdc404f8caff894effa8bb5c4"}
+18:43:15  [INFO ] : 测试通过！
+18:43:15  [INFO ] : 外部断言通过
+18:43:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:15  [INFO ] : 测试通过！
+18:43:15  [INFO ] : 外部断言通过
+18:43:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:15  [INFO ] : 测试通过！
+18:43:15  [INFO ] : 外部断言通过
+18:43:15  [INFO ] : 没有匹配到关键字
+18:43:15  [INFO ] : 没有匹配到关键字
+18:43:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:15  [INFO ] : 测试通过！
+18:43:15  [INFO ] : 外部断言通过
+18:43:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:15  [INFO ] : 测试通过！
+18:43:15  [INFO ] : 外部断言通过
+18:43:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:15  [INFO ] : 测试通过！
+18:43:15  [INFO ] : 外部断言通过
+18:43:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:15  [INFO ] : 测试通过！
+18:43:15  [INFO ] : 外部断言通过
+18:43:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"7d4978d92b8e4f1c908d23129ed19397"}
+18:43:15  [INFO ] : 测试失败！
+18:43:15  [INFO ] : 外部断言失败
+18:43:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+18:43:15  [INFO ] : 测试失败！
+18:43:15  [INFO ] : 外部断言失败
+18:43:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+18:43:15  [INFO ] : 测试通过！
+18:43:15  [INFO ] : 外部断言通过
+18:43:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":406,"msg":"登录状态，不能注册"}
+18:43:15  [INFO ] : 测试通过！
+18:43:15  [INFO ] : 外部断言通过
+18:43:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+18:43:15  [INFO ] : 没有匹配到关键字
+18:43:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"d32bbfa967cc47269162ff91d04d5187"}
+18:43:15  [INFO ] : 测试通过！
+18:43:15  [INFO ] : 外部断言通过
+18:43:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:15  [INFO ] : 测试通过！
+18:43:15  [INFO ] : 外部断言通过
+18:43:15  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:15  [INFO ] : 测试通过！
+18:43:15  [INFO ] : 外部断言通过
+18:43:16  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:16  [INFO ] : 测试失败！
+18:43:16  [INFO ] : 外部断言失败
+18:43:16  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+18:43:16  [INFO ] : 测试失败！
+18:43:16  [INFO ] : 外部断言失败
+18:43:16  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+18:43:16  [INFO ] : 测试失败！
+18:43:16  [INFO ] : 外部断言失败
+18:43:16  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1206"}
+18:43:16  [INFO ] : 测试失败！
+18:43:16  [INFO ] : 外部断言失败
+18:43:16  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+18:43:16  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"ee7731620da9473481a750c1829ada5a"}
+18:43:16  [INFO ] : 测试通过！
+18:43:16  [INFO ] : 外部断言通过
+18:43:16  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:16  [INFO ] : 测试通过！
+18:43:16  [INFO ] : 外部断言通过
+18:43:16  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+18:43:16  [INFO ] : 测试失败！
+18:43:16  [INFO ] : 外部断言失败
+18:43:16  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+18:43:16  [INFO ] : 测试失败！
+18:43:16  [INFO ] : 外部断言失败
+18:43:16  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:16  [INFO ] : 测试通过！
+18:43:16  [INFO ] : 外部断言通过
+18:43:16  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:16  [INFO ] : 测试通过！
+18:43:16  [INFO ] : 外部断言通过
+18:43:16  [INFO ] : 没有匹配到关键字
+18:43:16  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"15e64e5e4c5244dca267c978050a7022"}
+18:43:16  [INFO ] : 测试通过！
+18:43:16  [INFO ] : 外部断言通过
+18:43:16  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:16  [INFO ] : 测试通过！
+18:43:16  [INFO ] : 外部断言通过
+18:43:16  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:16  [INFO ] : 测试通过！
+18:43:16  [INFO ] : 外部断言通过
+18:43:16  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:16  [INFO ] : 测试失败！
+18:43:16  [INFO ] : 外部断言失败
+18:43:16  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+18:43:16  [INFO ] : 测试失败！
+18:43:16  [INFO ] : 外部断言失败
+18:43:16  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+18:43:16  [INFO ] : 测试失败！
+18:43:16  [INFO ] : 外部断言失败
+18:43:16  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1458"}
+18:43:16  [INFO ] : 测试失败！
+18:43:16  [INFO ] : 外部断言失败
+18:43:16  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+18:43:17  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"4e94507510ac40d4b43cc0365fc45851"}
+18:43:17  [INFO ] : 测试通过！
+18:43:17  [INFO ] : 外部断言通过
+18:43:17  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:17  [INFO ] : 测试通过！
+18:43:17  [INFO ] : 外部断言通过
+18:43:17  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+18:43:17  [INFO ] : 测试失败！
+18:43:17  [INFO ] : 外部断言失败
+18:43:17  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+18:43:17  [INFO ] : 测试失败！
+18:43:17  [INFO ] : 外部断言失败
+18:43:17  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:17  [INFO ] : 测试通过！
+18:43:17  [INFO ] : 外部断言通过
+18:43:17  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:17  [INFO ] : 测试通过！
+18:43:17  [INFO ] : 外部断言通过
+18:43:17  [INFO ] : 没有匹配到关键字
+18:43:17  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"a47dcba0c92342408316bb7568af53d5"}
+18:43:17  [INFO ] : 测试通过！
+18:43:17  [INFO ] : 外部断言通过
+18:43:17  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:17  [INFO ] : 测试通过！
+18:43:17  [INFO ] : 外部断言通过
+18:43:17  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:17  [INFO ] : 测试通过！
+18:43:17  [INFO ] : 外部断言通过
+18:43:17  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:17  [INFO ] : 测试失败！
+18:43:17  [INFO ] : 外部断言失败
+18:43:17  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+18:43:17  [INFO ] : 测试失败！
+18:43:17  [INFO ] : 外部断言失败
+18:43:17  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+18:43:17  [INFO ] : 测试失败！
+18:43:17  [INFO ] : 外部断言失败
+18:43:17  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1459"}
+18:43:17  [INFO ] : 测试失败！
+18:43:17  [INFO ] : 外部断言失败
+18:43:17  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+18:43:17  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"d4f2191bf8b84957a58e0e97ffc04452"}
+18:43:17  [INFO ] : 测试通过！
+18:43:17  [INFO ] : 外部断言通过
+18:43:17  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:17  [INFO ] : 测试通过！
+18:43:17  [INFO ] : 外部断言通过
+18:43:17  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+18:43:17  [INFO ] : 测试失败！
+18:43:17  [INFO ] : 外部断言失败
+18:43:17  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+18:43:17  [INFO ] : 测试失败！
+18:43:17  [INFO ] : 外部断言失败
+18:43:18  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:18  [INFO ] : 测试通过！
+18:43:18  [INFO ] : 外部断言通过
+18:43:18  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:18  [INFO ] : 测试通过！
+18:43:18  [INFO ] : 外部断言通过
+18:43:18  [INFO ] : 没有匹配到关键字
+18:43:18  [INFO ] : 没有匹配到关键字
+18:43:18  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:18  [INFO ] : 测试通过！
+18:43:18  [INFO ] : 外部断言通过
+18:43:18  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:18  [INFO ] : 测试通过！
+18:43:18  [INFO ] : 外部断言通过
+18:43:18  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:18  [INFO ] : 测试通过！
+18:43:18  [INFO ] : 外部断言通过
+18:43:18  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:18  [INFO ] : 测试通过！
+18:43:18  [INFO ] : 外部断言通过
+18:43:18  [INFO ] : 没有匹配到关键字
+18:43:18  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"7712e5cff7a248cea6235c6befe8daba"}
+18:43:18  [INFO ] : 测试通过！
+18:43:18  [INFO ] : 外部断言通过
+18:43:18  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+18:43:18  [INFO ] : 测试通过！
+18:43:18  [INFO ] : 外部断言通过
+18:43:18  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"ddcaa3c640e640d18ad590a1ff6b605a"}
+18:43:18  [INFO ] : 测试通过！
+18:43:18  [INFO ] : 外部断言通过
+18:43:18  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+18:43:18  [INFO ] : 测试通过！
+18:43:18  [INFO ] : 外部断言通过
+18:43:18  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+18:43:18  [INFO ] : 测试通过！
+18:43:18  [INFO ] : 外部断言通过
+18:43:18  [INFO ] : 没有匹配到关键字
+18:43:18  [INFO ] : 没有匹配到关键字
+18:43:18  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"3559dc80531449d0a6018ed94e0ff1ff"}
+18:43:18  [INFO ] : 测试通过！
+18:43:18  [INFO ] : 外部断言通过
+18:43:18  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+18:43:18  [INFO ] : 测试失败！
+18:43:18  [INFO ] : 外部断言失败
+18:43:18  [INFO ] : 没有匹配到关键字
+18:43:18  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1407"}
+18:43:18  [INFO ] : 测试通过！
+18:43:18  [INFO ] : 外部断言通过
+18:43:18  [INFO ] : 没有匹配到关键字
+18:43:18  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"查询成功","nickname":"测试账号","id":"1407","describe":"这个账号，是一个测试注册的账号"}
+18:43:18  [INFO ] : 测试通过！
+18:43:18  [INFO ] : 外部断言通过
+18:43:18  [INFO ] : 没有匹配到关键字
+18:43:18  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+18:43:18  [INFO ] : 测试通过！
+18:43:18  [INFO ] : 外部断言通过
+18:43:56  [INFO ] : 没有匹配到关键字
+18:43:56  [INFO ] : 没有匹配到关键字
+18:43:56  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"d8e8f2bb5ab1411f923c471f9d77430a"}
+18:43:56  [INFO ] : 测试通过！
+18:43:56  [INFO ] : 外部断言通过
+18:43:56  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"86e4a52e46a744b8b22ee31ff534f9d3"}
+18:43:56  [INFO ] : 测试通过！
+18:43:56  [INFO ] : 外部断言通过
+18:43:56  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"2bd661f8fb174ece823ac0ac026d25a0"}
+18:43:56  [INFO ] : 没有匹配到关键字
+18:43:56  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"820a38a1974b474ba211c6eab65b45ca"}
+18:43:56  [INFO ] : 测试通过！
+18:43:56  [INFO ] : 外部断言通过
+18:43:57  [INFO ] : 在keyword中调试输出返回的结果是{"status":201,"msg":"success"}
+18:43:57  [INFO ] : 测试失败！
+18:43:57  [INFO ] : 外部断言失败
+18:43:57  [INFO ] : 没有匹配到关键字
+18:43:57  [INFO ] : 没有匹配到关键字
+18:43:57  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:57  [INFO ] : 测试通过！
+18:43:57  [INFO ] : 外部断言通过
+18:43:57  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:57  [INFO ] : 测试通过！
+18:43:57  [INFO ] : 外部断言通过
+18:43:57  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:57  [INFO ] : 测试通过！
+18:43:57  [INFO ] : 外部断言通过
+18:43:57  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:57  [INFO ] : 测试通过！
+18:43:57  [INFO ] : 外部断言通过
+18:43:57  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"8b268f68f1604a52bfa98175599c24eb"}
+18:43:57  [INFO ] : 测试通过！
+18:43:57  [INFO ] : 外部断言通过
+18:43:57  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+18:43:57  [INFO ] : 测试通过！
+18:43:57  [INFO ] : 外部断言通过
+18:43:57  [INFO ] : 在keyword中调试输出返回的结果是{"status":406,"msg":"用户已经在别处登录"}
+18:43:57  [INFO ] : 测试通过！
+18:43:57  [INFO ] : 外部断言通过
+18:43:57  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+18:43:57  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"e8eb1e7f643449248ca2662410534e5f"}
+18:43:57  [INFO ] : 测试通过！
+18:43:57  [INFO ] : 外部断言通过
+18:43:57  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+18:43:57  [ERROR] : 解析失败，请检查jsonPath表达式
+18:43:57  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:78) [classes/:?]
+18:43:57  [INFO ] : 外部断言失败
+18:43:57  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:57  [INFO ] : 测试通过！
+18:43:57  [INFO ] : 外部断言通过
+18:43:57  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+18:43:57  [ERROR] : 解析失败，请检查jsonPath表达式
+18:43:57  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:78) [classes/:?]
+18:43:57  [INFO ] : 外部断言失败
+18:43:57  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1201"}
+18:43:57  [INFO ] : 测试失败！
+18:43:57  [INFO ] : 外部断言失败
+18:43:57  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1206"}
+18:43:57  [INFO ] : 测试失败！
+18:43:57  [INFO ] : 外部断言失败
+18:43:57  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:57  [INFO ] : 测试通过！
+18:43:57  [INFO ] : 外部断言通过
+18:43:57  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:57  [INFO ] : 测试通过！
+18:43:57  [INFO ] : 外部断言通过
+18:43:57  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"893"}
+18:43:57  [INFO ] : 测试失败！
+18:43:57  [INFO ] : 外部断言失败
+18:43:58  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:58  [INFO ] : 测试通过！
+18:43:58  [INFO ] : 外部断言通过
+18:43:58  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:58  [INFO ] : 测试通过！
+18:43:58  [INFO ] : 外部断言通过
+18:43:58  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+18:43:58  [ERROR] : 解析失败，请检查jsonPath表达式
+18:43:58  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:78) [classes/:?]
+18:43:58  [INFO ] : 外部断言失败
+18:43:58  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:58  [INFO ] : 测试通过！
+18:43:58  [INFO ] : 外部断言通过
+18:43:58  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+18:43:58  [ERROR] : 解析失败，请检查jsonPath表达式
+18:43:58  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:78) [classes/:?]
+18:43:58  [INFO ] : 外部断言失败
+18:43:58  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:58  [INFO ] : 测试通过！
+18:43:58  [INFO ] : 外部断言通过
+18:43:58  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:58  [INFO ] : 测试通过！
+18:43:58  [INFO ] : 外部断言通过
+18:43:58  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:58  [INFO ] : 测试通过！
+18:43:58  [INFO ] : 外部断言通过
+18:43:58  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:58  [INFO ] : 测试通过！
+18:43:58  [INFO ] : 外部断言通过
+18:43:58  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:58  [INFO ] : 测试通过！
+18:43:58  [INFO ] : 外部断言通过
+18:43:58  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:58  [INFO ] : 测试通过！
+18:43:58  [INFO ] : 外部断言通过
+18:43:58  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:58  [INFO ] : 测试通过！
+18:43:58  [INFO ] : 外部断言通过
+18:43:58  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+18:43:58  [ERROR] : 解析失败，请检查jsonPath表达式
+18:43:58  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:78) [classes/:?]
+18:43:58  [INFO ] : 外部断言失败
+18:43:58  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+18:43:58  [INFO ] : 测试通过！
+18:43:58  [INFO ] : 外部断言通过
+18:43:58  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+18:43:58  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"0532398622aa4db08a4ce943b34a5873"}
+18:43:58  [INFO ] : 测试通过！
+18:43:58  [INFO ] : 外部断言通过
+18:43:58  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:58  [INFO ] : 测试通过！
+18:43:58  [INFO ] : 外部断言通过
+18:43:58  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:58  [INFO ] : 测试通过！
+18:43:58  [INFO ] : 外部断言通过
+18:43:58  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:58  [INFO ] : 测试通过！
+18:43:58  [INFO ] : 外部断言通过
+18:43:59  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+18:43:59  [INFO ] : 测试通过！
+18:43:59  [INFO ] : 外部断言通过
+18:43:59  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+18:43:59  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"e5a324ac693f40f586158550a5cc45d7"}
+18:43:59  [INFO ] : 测试通过！
+18:43:59  [INFO ] : 外部断言通过
+18:43:59  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:59  [INFO ] : 测试通过！
+18:43:59  [INFO ] : 外部断言通过
+18:43:59  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+18:43:59  [INFO ] : 测试通过！
+18:43:59  [INFO ] : 外部断言通过
+18:43:59  [INFO ] : 没有匹配到关键字
+18:43:59  [INFO ] : 没有匹配到关键字
+18:43:59  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:59  [INFO ] : 测试通过！
+18:43:59  [INFO ] : 外部断言通过
+18:43:59  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:59  [INFO ] : 测试通过！
+18:43:59  [INFO ] : 外部断言通过
+18:43:59  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:59  [INFO ] : 测试通过！
+18:43:59  [INFO ] : 外部断言通过
+18:43:59  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+18:43:59  [INFO ] : 测试通过！
+18:43:59  [INFO ] : 外部断言通过
+18:43:59  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"b61dbc2f4bb34cddb0d1ad2d9f8171e8"}
+18:43:59  [INFO ] : 测试失败！
+18:43:59  [INFO ] : 外部断言失败
+18:43:59  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+18:43:59  [INFO ] : 测试失败！
+18:43:59  [INFO ] : 外部断言失败
+18:43:59  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+18:43:59  [INFO ] : 测试通过！
+18:43:59  [INFO ] : 外部断言通过
+18:43:59  [INFO ] : 在keyword中调试输出返回的结果是{"status":406,"msg":"登录状态，不能注册"}
+18:43:59  [INFO ] : 测试通过！
+18:43:59  [INFO ] : 外部断言通过
+18:43:59  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+18:43:59  [INFO ] : 没有匹配到关键字
+18:43:59  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"30eca2083c9840359df8027c7645a519"}
+18:43:59  [INFO ] : 测试通过！
+18:43:59  [INFO ] : 外部断言通过
+18:43:59  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:59  [INFO ] : 测试通过！
+18:43:59  [INFO ] : 外部断言通过
+18:43:59  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:59  [INFO ] : 测试通过！
+18:43:59  [INFO ] : 外部断言通过
+18:43:59  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+18:43:59  [INFO ] : 测试失败！
+18:43:59  [INFO ] : 外部断言失败
+18:43:59  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+18:43:59  [INFO ] : 测试失败！
+18:43:59  [INFO ] : 外部断言失败

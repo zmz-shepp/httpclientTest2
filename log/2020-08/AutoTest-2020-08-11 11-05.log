@@ -1,0 +1,55 @@
+11:05:55  [INFO ] : 没有匹配到关键字
+11:05:55  [INFO ] : 没有匹配到关键字
+11:05:55  [INFO ] : 没有匹配到关键字
+11:05:56  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"6ba4a6490e614488bafe36ed02d1e5fc"}
+11:05:56  [INFO ] : 测试通过！
+11:05:56  [INFO ] : 外部断言通过
+11:05:56  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:05:56  [INFO ] : 测试失败！
+11:05:56  [INFO ] : 外部断言失败
+11:05:56  [ERROR] : 保存参数失败
+11:05:56  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.saveParam(KeywordOfInter.java:117) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:33) [classes/:?]
+11:05:56  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:05:56  [INFO ] : 测试失败！
+11:05:56  [INFO ] : 外部断言失败
+11:05:56  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:05:56  [INFO ] : 测试失败！
+11:05:56  [INFO ] : 外部断言失败
+11:05:56  [INFO ] : 没有匹配到关键字
+11:05:56  [INFO ] : 没有匹配到关键字
+11:05:56  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"5bffd424c6324583bdaef710b10f2a66"}
+11:05:56  [INFO ] : 测试通过！
+11:05:56  [INFO ] : 外部断言通过
+11:05:56  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:05:56  [INFO ] : 测试失败！
+11:05:56  [INFO ] : 外部断言失败
+11:05:56  [INFO ] : 没有匹配到关键字
+11:05:56  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"caa3e9ab823c4aa2b938817e15110167"}
+11:05:56  [INFO ] : 测试通过！
+11:05:56  [INFO ] : 外部断言通过
+11:05:56  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:05:56  [INFO ] : 测试失败！
+11:05:56  [INFO ] : 外部断言失败
+11:05:56  [INFO ] : 没有匹配到关键字
+11:05:56  [INFO ] : 没有匹配到关键字
+11:05:56  [INFO ] : 没有匹配到关键字
+11:05:56  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"d4094af287ee4e6b82553a117c8c6c41"}
+11:05:56  [INFO ] : 测试通过！
+11:05:56  [INFO ] : 外部断言通过
+11:05:56  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:05:56  [INFO ] : 测试失败！
+11:05:56  [INFO ] : 外部断言失败
+11:05:56  [ERROR] : 保存参数失败
+11:05:56  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.saveParam(KeywordOfInter.java:117) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:33) [classes/:?]
+11:05:57  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:05:57  [INFO ] : 测试失败！
+11:05:57  [INFO ] : 外部断言失败
+11:05:57  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:05:57  [INFO ] : 测试失败！
+11:05:57  [INFO ] : 外部断言失败

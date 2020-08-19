@@ -1,0 +1,8 @@
+14:47:17  [INFO ] : auth接口的返回信息{"status":200,"msg":"success","token":"3dc8a1df38a74724a160a22f34446eaf"}
+14:47:17  [INFO ] : token的值是3dc8a1df38a74724a160a22f34446eaf
+14:47:17  [INFO ] : register接口的返回信息{"status":401,"msg":"用户已被注册"}
+14:47:17  [INFO ] : 测试成功
+14:47:17  [INFO ] : login接口的返回信息{"status":200,"msg":"恭喜您，登录成功","userid":"1065"}
+14:47:17  [INFO ] : {"status":200,"msg":"查询成功","nickname":"这是个老师","id":"1065","describe":"测试账号"}
+14:47:17  [INFO ] : 测试成功
+14:47:17  [INFO ] : {"status":200,"msg":"用户已退出登录"}

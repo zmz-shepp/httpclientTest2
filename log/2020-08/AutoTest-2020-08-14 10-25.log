@@ -1,0 +1,8 @@
+10:25:39  [INFO ] : 没有匹配到关键字
+10:25:39  [INFO ] : 没有匹配到关键字
+10:25:39  [INFO ] : 没有匹配到关键字
+10:25:39  [ERROR] : 解析失败，请检查jsonPath表达式
+10:25:39  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:71) [classes/:?]

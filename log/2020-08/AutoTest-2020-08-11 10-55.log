@@ -1,0 +1,299 @@
+10:55:47  [INFO ] : 没有匹配到关键字
+10:55:47  [INFO ] : 没有匹配到关键字
+10:55:47  [INFO ] : 没有匹配到关键字
+10:55:47  [ERROR] : org.apache.http.client.ClientProtocolException
+org.apache.http.client.ClientProtocolException: null
+	at inter.HttpClientKw.doPost(HttpClientKw.java:314) [classes/:?]
+	at inter.KeywordOfInter.testPost(KeywordOfInter.java:39) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:30) [classes/:?]
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108) ~[httpclient-4.5.11.jar:4.5.11]
+	at inter.HttpClientKw.doPost(HttpClientKw.java:299) ~[classes/:?]
+	... 2 more
+10:55:47  [INFO ] : 在keyword中调试输出返回的结果是org.apache.http.client.ClientProtocolException
+10:55:47  [ERROR] : 解析失败，请检查jsonPath表达式
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+10:55:47  [INFO ] : 外部断言失败
+10:55:47  [ERROR] : 保存参数失败
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+	at inter.KeywordOfInter.saveParam(KeywordOfInter.java:117) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:33) [classes/:?]
+10:55:47  [ERROR] : 头域格式错误，请检查
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2addHeader
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2addHeader
+	at inter.KeywordOfInter.addHeader(KeywordOfInter.java:96) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:36) [classes/:?]
+10:55:47  [ERROR] : org.apache.http.client.ClientProtocolException
+org.apache.http.client.ClientProtocolException: null
+	at inter.HttpClientKw.doPost(HttpClientKw.java:314) [classes/:?]
+	at inter.KeywordOfInter.testPost(KeywordOfInter.java:39) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:30) [classes/:?]
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108) ~[httpclient-4.5.11.jar:4.5.11]
+	at inter.HttpClientKw.doPost(HttpClientKw.java:299) ~[classes/:?]
+	... 2 more
+10:55:47  [INFO ] : 在keyword中调试输出返回的结果是org.apache.http.client.ClientProtocolException
+10:55:47  [ERROR] : 解析失败，请检查jsonPath表达式
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+10:55:47  [INFO ] : 外部断言失败
+10:55:47  [ERROR] : 保存参数失败
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+	at inter.KeywordOfInter.saveParam(KeywordOfInter.java:117) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:33) [classes/:?]
+10:55:47  [ERROR] : org.apache.http.client.ClientProtocolException
+org.apache.http.client.ClientProtocolException: null
+	at inter.HttpClientKw.doPost(HttpClientKw.java:314) [classes/:?]
+	at inter.KeywordOfInter.testPost(KeywordOfInter.java:39) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:30) [classes/:?]
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108) ~[httpclient-4.5.11.jar:4.5.11]
+	at inter.HttpClientKw.doPost(HttpClientKw.java:299) ~[classes/:?]
+	... 2 more
+10:55:47  [INFO ] : 在keyword中调试输出返回的结果是org.apache.http.client.ClientProtocolException
+10:55:47  [ERROR] : 解析失败，请检查jsonPath表达式
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+10:55:47  [INFO ] : 外部断言失败
+10:55:47  [ERROR] : org.apache.http.client.ClientProtocolException
+org.apache.http.client.ClientProtocolException: null
+	at inter.HttpClientKw.doPost(HttpClientKw.java:314) [classes/:?]
+	at inter.KeywordOfInter.testPost(KeywordOfInter.java:39) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:30) [classes/:?]
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108) ~[httpclient-4.5.11.jar:4.5.11]
+	at inter.HttpClientKw.doPost(HttpClientKw.java:299) ~[classes/:?]
+	... 2 more
+10:55:47  [INFO ] : 在keyword中调试输出返回的结果是org.apache.http.client.ClientProtocolException
+10:55:47  [ERROR] : 解析失败，请检查jsonPath表达式
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+10:55:47  [INFO ] : 外部断言失败
+10:55:47  [INFO ] : 没有匹配到关键字
+10:55:47  [INFO ] : 没有匹配到关键字
+10:55:47  [ERROR] : org.apache.http.client.ClientProtocolException
+org.apache.http.client.ClientProtocolException: null
+	at inter.HttpClientKw.doPost(HttpClientKw.java:314) [classes/:?]
+	at inter.KeywordOfInter.testPost(KeywordOfInter.java:39) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:30) [classes/:?]
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108) ~[httpclient-4.5.11.jar:4.5.11]
+	at inter.HttpClientKw.doPost(HttpClientKw.java:299) ~[classes/:?]
+	... 2 more
+10:55:47  [INFO ] : 在keyword中调试输出返回的结果是org.apache.http.client.ClientProtocolException
+10:55:47  [ERROR] : 解析失败，请检查jsonPath表达式
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+10:55:47  [INFO ] : 外部断言失败
+10:55:47  [ERROR] : 保存参数失败
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+	at inter.KeywordOfInter.saveParam(KeywordOfInter.java:117) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:33) [classes/:?]
+10:55:47  [ERROR] : 头域格式错误，请检查
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2addHeader
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2addHeader
+	at inter.KeywordOfInter.addHeader(KeywordOfInter.java:96) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:36) [classes/:?]
+10:55:47  [ERROR] : org.apache.http.client.ClientProtocolException
+org.apache.http.client.ClientProtocolException: null
+	at inter.HttpClientKw.doPost(HttpClientKw.java:314) [classes/:?]
+	at inter.KeywordOfInter.testPost(KeywordOfInter.java:39) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:30) [classes/:?]
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108) ~[httpclient-4.5.11.jar:4.5.11]
+	at inter.HttpClientKw.doPost(HttpClientKw.java:299) ~[classes/:?]
+	... 2 more
+10:55:47  [INFO ] : 在keyword中调试输出返回的结果是org.apache.http.client.ClientProtocolException
+10:55:47  [ERROR] : 解析失败，请检查jsonPath表达式
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+10:55:47  [INFO ] : 外部断言失败
+10:55:47  [INFO ] : 没有匹配到关键字
+10:55:47  [ERROR] : org.apache.http.client.ClientProtocolException
+org.apache.http.client.ClientProtocolException: null
+	at inter.HttpClientKw.doPost(HttpClientKw.java:314) [classes/:?]
+	at inter.KeywordOfInter.testPost(KeywordOfInter.java:39) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:30) [classes/:?]
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108) ~[httpclient-4.5.11.jar:4.5.11]
+	at inter.HttpClientKw.doPost(HttpClientKw.java:299) ~[classes/:?]
+	... 2 more
+10:55:47  [INFO ] : 在keyword中调试输出返回的结果是org.apache.http.client.ClientProtocolException
+10:55:47  [ERROR] : 解析失败，请检查jsonPath表达式
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+10:55:47  [INFO ] : 外部断言失败
+10:55:47  [ERROR] : 保存参数失败
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+	at inter.KeywordOfInter.saveParam(KeywordOfInter.java:117) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:33) [classes/:?]
+10:55:47  [ERROR] : 头域格式错误，请检查
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2addHeader
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2addHeader
+	at inter.KeywordOfInter.addHeader(KeywordOfInter.java:96) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:36) [classes/:?]
+10:55:47  [ERROR] : org.apache.http.client.ClientProtocolException
+org.apache.http.client.ClientProtocolException: null
+	at inter.HttpClientKw.doPost(HttpClientKw.java:314) [classes/:?]
+	at inter.KeywordOfInter.testPost(KeywordOfInter.java:39) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:30) [classes/:?]
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108) ~[httpclient-4.5.11.jar:4.5.11]
+	at inter.HttpClientKw.doPost(HttpClientKw.java:299) ~[classes/:?]
+	... 2 more
+10:55:47  [INFO ] : 在keyword中调试输出返回的结果是org.apache.http.client.ClientProtocolException
+10:55:47  [ERROR] : 解析失败，请检查jsonPath表达式
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+10:55:47  [INFO ] : 外部断言失败
+10:55:47  [INFO ] : 没有匹配到关键字
+10:55:47  [INFO ] : 没有匹配到关键字
+10:55:47  [INFO ] : 没有匹配到关键字
+10:55:47  [ERROR] : org.apache.http.client.ClientProtocolException
+org.apache.http.client.ClientProtocolException: null
+	at inter.HttpClientKw.doPost(HttpClientKw.java:314) [classes/:?]
+	at inter.KeywordOfInter.testPost(KeywordOfInter.java:39) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:30) [classes/:?]
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108) ~[httpclient-4.5.11.jar:4.5.11]
+	at inter.HttpClientKw.doPost(HttpClientKw.java:299) ~[classes/:?]
+	... 2 more
+10:55:47  [INFO ] : 在keyword中调试输出返回的结果是org.apache.http.client.ClientProtocolException
+10:55:47  [ERROR] : 解析失败，请检查jsonPath表达式
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+10:55:47  [INFO ] : 外部断言失败
+10:55:47  [ERROR] : 保存参数失败
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+	at inter.KeywordOfInter.saveParam(KeywordOfInter.java:117) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:33) [classes/:?]
+10:55:47  [ERROR] : 头域格式错误，请检查
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2addHeader
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2addHeader
+	at inter.KeywordOfInter.addHeader(KeywordOfInter.java:96) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:36) [classes/:?]
+10:55:47  [ERROR] : org.apache.http.client.ClientProtocolException
+org.apache.http.client.ClientProtocolException: null
+	at inter.HttpClientKw.doPost(HttpClientKw.java:314) [classes/:?]
+	at inter.KeywordOfInter.testPost(KeywordOfInter.java:39) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:30) [classes/:?]
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108) ~[httpclient-4.5.11.jar:4.5.11]
+	at inter.HttpClientKw.doPost(HttpClientKw.java:299) ~[classes/:?]
+	... 2 more
+10:55:47  [INFO ] : 在keyword中调试输出返回的结果是org.apache.http.client.ClientProtocolException
+10:55:47  [ERROR] : 解析失败，请检查jsonPath表达式
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+10:55:47  [INFO ] : 外部断言失败
+10:55:47  [ERROR] : 保存参数失败
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+	at inter.KeywordOfInter.saveParam(KeywordOfInter.java:117) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:33) [classes/:?]
+10:55:47  [ERROR] : org.apache.http.client.ClientProtocolException
+org.apache.http.client.ClientProtocolException: null
+	at inter.HttpClientKw.doPost(HttpClientKw.java:314) [classes/:?]
+	at inter.KeywordOfInter.testPost(KeywordOfInter.java:39) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:30) [classes/:?]
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108) ~[httpclient-4.5.11.jar:4.5.11]
+	at inter.HttpClientKw.doPost(HttpClientKw.java:299) ~[classes/:?]
+	... 2 more
+10:55:47  [INFO ] : 在keyword中调试输出返回的结果是org.apache.http.client.ClientProtocolException
+10:55:47  [ERROR] : 解析失败，请检查jsonPath表达式
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+10:55:47  [INFO ] : 外部断言失败
+10:55:47  [ERROR] : org.apache.http.client.ClientProtocolException
+org.apache.http.client.ClientProtocolException: null
+	at inter.HttpClientKw.doPost(HttpClientKw.java:314) [classes/:?]
+	at inter.KeywordOfInter.testPost(KeywordOfInter.java:39) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:30) [classes/:?]
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108) ~[httpclient-4.5.11.jar:4.5.11]
+	at inter.HttpClientKw.doPost(HttpClientKw.java:299) ~[classes/:?]
+	... 2 more
+10:55:47  [INFO ] : 在keyword中调试输出返回的结果是org.apache.http.client.ClientProtocolException
+10:55:47  [ERROR] : 解析失败，请检查jsonPath表达式
+10:55:47  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2org.apache.http.client.ClientProtocolException
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+10:55:47  [INFO ] : 外部断言失败

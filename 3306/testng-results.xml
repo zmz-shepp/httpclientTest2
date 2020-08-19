@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="1209" started-at="2020-08-17T17:00:33 CST" finished-at="2020-08-17T17:00:34 CST">
+    <groups>
+    </groups>
+    <test name="httpclient" duration-ms="1209" started-at="2020-08-17T17:00:33 CST" finished-at="2020-08-17T17:00:34 CST">
+      <class name="Mail.a">
+        <test-method status="PASS" signature="a()[pri:0, instance:Mail.a@18be83e4]" name="a" duration-ms="1024" started-at="2020-08-17T17:00:33 CST" finished-at="2020-08-17T17:00:34 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="b()[pri:0, instance:Mail.a@18be83e4]" name="b" duration-ms="43" started-at="2020-08-17T17:00:34 CST" finished-at="2020-08-17T17:00:34 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method status="PASS" signature="c()[pri:0, instance:Mail.a@18be83e4]" name="c" duration-ms="59" started-at="2020-08-17T17:00:34 CST" finished-at="2020-08-17T17:00:34 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+        <test-method status="PASS" signature="d()[pri:0, instance:Mail.a@18be83e4]" name="d" duration-ms="58" started-at="2020-08-17T17:00:34 CST" finished-at="2020-08-17T17:00:34 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d -->
+      </class> <!-- Mail.a -->
+    </test> <!-- httpclient -->
+  </suite> <!-- Default Suite -->
+</testng-results>

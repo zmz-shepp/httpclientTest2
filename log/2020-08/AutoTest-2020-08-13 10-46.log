@@ -1,0 +1,24 @@
+10:46:12  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"fe6ff9411d2c4b2abf44610cf4c6ddc3"}
+10:46:12  [INFO ] : 测试通过！
+10:46:12  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+10:46:12  [ERROR] : 保存参数失败
+10:46:12  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.saveParam(KeywordOfInter.java:117) [classes/:?]
+	at 登录注册检查跳出.LoginTestWithKw.main(LoginTestWithKw.java:19) [classes/:?]
+10:46:12  [INFO ] : 测试失败！
+10:46:12  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+10:46:12  [INFO ] : 测试失败！
+10:46:12  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+10:46:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"f3ddf22fe214411da28abb3ea48c896b"}
+10:46:36  [INFO ] : 测试通过！
+10:46:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+10:46:36  [ERROR] : 保存参数失败
+10:46:36  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.saveParam(KeywordOfInter.java:117) [classes/:?]
+	at 登录注册检查跳出.LoginTestWithKw.main(LoginTestWithKw.java:19) [classes/:?]
+10:46:36  [INFO ] : 测试失败！
+10:46:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+10:46:36  [INFO ] : 测试失败！
+10:46:36  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}

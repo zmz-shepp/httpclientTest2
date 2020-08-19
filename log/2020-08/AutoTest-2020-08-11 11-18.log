@@ -1,0 +1,105 @@
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [ERROR] : 解析失败，请检查jsonPath表达式
+11:18:41  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+11:18:41  [INFO ] : 外部断言失败
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [ERROR] : 解析失败，请检查jsonPath表达式
+11:18:41  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+11:18:41  [INFO ] : 外部断言失败
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [ERROR] : 解析失败，请检查jsonPath表达式
+11:18:41  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+11:18:41  [INFO ] : 外部断言失败
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [ERROR] : 解析失败，请检查jsonPath表达式
+11:18:41  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+11:18:41  [INFO ] : 外部断言失败
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [ERROR] : 解析失败，请检查jsonPath表达式
+11:18:41  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+11:18:41  [INFO ] : 外部断言失败
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [ERROR] : 解析失败，请检查jsonPath表达式
+11:18:41  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+11:18:41  [INFO ] : 外部断言失败
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [ERROR] : 解析失败，请检查jsonPath表达式
+11:18:41  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+11:18:41  [INFO ] : 外部断言失败
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [ERROR] : 解析失败，请检查jsonPath表达式
+11:18:41  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+11:18:41  [INFO ] : 外部断言失败
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [ERROR] : 解析失败，请检查jsonPath表达式
+11:18:41  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+11:18:41  [INFO ] : 外部断言失败
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [ERROR] : 解析失败，请检查jsonPath表达式
+11:18:41  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+11:18:41  [INFO ] : 外部断言失败
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [ERROR] : 解析失败，请检查jsonPath表达式
+11:18:41  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+11:18:41  [INFO ] : 外部断言失败
+11:18:41  [INFO ] : 没有匹配到关键字
+11:18:41  [ERROR] : 解析失败，请检查jsonPath表达式
+11:18:41  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at post.ExcelReaderTest.main(ExcelReaderTest.java:48) [classes/:?]
+11:18:41  [INFO ] : 外部断言失败

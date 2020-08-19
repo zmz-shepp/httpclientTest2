@@ -1,0 +1,57 @@
+11:10:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"cf82bb785ad3480fa4b3717981305368"}
+11:10:33  [INFO ] : 测试通过！
+11:10:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:10:33  [ERROR] : 保存参数失败
+11:10:33  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at inter.KeywordOfInter.saveParam(KeywordOfInter.java:117) [classes/:?]
+	at 登录注册检查跳出.LoginTestWithKw.main(LoginTestWithKw.java:19) [classes/:?]
+11:10:33  [INFO ] : 测试失败！
+11:10:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:10:33  [INFO ] : 测试失败！
+11:10:33  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+11:10:43  [INFO ] : 没有匹配到关键字
+11:10:43  [INFO ] : 没有匹配到关键字
+11:10:43  [INFO ] : 没有匹配到关键字
+11:10:43  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"da36c13605b14fdd88b8d05d3d15e593"}
+11:10:43  [INFO ] : 测试通过！
+11:10:43  [INFO ] : 外部断言通过
+11:10:43  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+11:10:43  [INFO ] : 测试通过！
+11:10:43  [INFO ] : 外部断言通过
+11:10:43  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"查询成功","nickname":"Will_Testing","id":"1","describe":"擅长Python、Java自动化开发；是特斯汀学院最可爱的老师"}
+11:10:43  [INFO ] : 测试通过！
+11:10:43  [INFO ] : 外部断言通过
+11:10:43  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+11:10:43  [INFO ] : 测试通过！
+11:10:43  [INFO ] : 外部断言通过
+11:10:43  [INFO ] : 没有匹配到关键字
+11:10:43  [INFO ] : 没有匹配到关键字
+11:10:43  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"64117f21047a407280bdb4c71225edd3"}
+11:10:43  [INFO ] : 测试通过！
+11:10:43  [INFO ] : 外部断言通过
+11:10:44  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1023"}
+11:10:44  [INFO ] : 测试失败！
+11:10:44  [INFO ] : 外部断言失败
+11:10:44  [INFO ] : 没有匹配到关键字
+11:10:44  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"35b0ad9374f1412da7112421f6add68f"}
+11:10:44  [INFO ] : 测试通过！
+11:10:44  [INFO ] : 外部断言通过
+11:10:44  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+11:10:44  [INFO ] : 测试失败！
+11:10:44  [INFO ] : 外部断言失败
+11:10:44  [INFO ] : 没有匹配到关键字
+11:10:44  [INFO ] : 没有匹配到关键字
+11:10:44  [INFO ] : 没有匹配到关键字
+11:10:44  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"8aa59a1e07034e32912599f640e7972c"}
+11:10:44  [INFO ] : 测试通过！
+11:10:44  [INFO ] : 外部断言通过
+11:10:44  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"77"}
+11:10:44  [INFO ] : 测试通过！
+11:10:44  [INFO ] : 外部断言通过
+11:10:44  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"查询成功","nickname":"roy","id":"77","describe":"roysensel"}
+11:10:44  [INFO ] : 测试通过！
+11:10:44  [INFO ] : 外部断言通过
+11:10:44  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+11:10:44  [INFO ] : 测试通过！
+11:10:44  [INFO ] : 外部断言通过

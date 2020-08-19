@@ -1,0 +1,18 @@
+15:58:03  [INFO ] : auth接口的返回信息{"status":200,"msg":"success","token":"057d78f6407b4501866572551697bfba"}
+15:58:03  [INFO ] : token的值是057d78f6407b4501866572551697bfba
+15:58:03  [INFO ] : register注册接口返回{"status":405,"msg":"非法请求"}
+15:58:03  [ERROR] : java.lang.IllegalArgumentException: Illegal character in scheme name at index 0:  http://www.testingedu.com.cn:8081/inter/HTTP/login
+java.lang.IllegalArgumentException: Illegal character in scheme name at index 0:  http://www.testingedu.com.cn:8081/inter/HTTP/login
+	at inter.HttpClientKw.doPost(HttpClientKw.java:249) [classes/:?]
+	at post.TestingLoginTest.main(TestingLoginTest.java:22) [classes/:?]
+Caused by: java.net.URISyntaxException: Illegal character in scheme name at index 0:  http://www.testingedu.com.cn:8081/inter/HTTP/login
+	at java.net.URI$Parser.fail(URI.java:2848) ~[?:1.8.0_181]
+	at java.net.URI$Parser.checkChars(URI.java:3021) ~[?:1.8.0_181]
+	at java.net.URI$Parser.checkChar(URI.java:3031) ~[?:1.8.0_181]
+	at java.net.URI$Parser.parse(URI.java:3047) ~[?:1.8.0_181]
+	at java.net.URI.<init>(URI.java:588) ~[?:1.8.0_181]
+	at java.net.URI.create(URI.java:850) ~[?:1.8.0_181]
+	at org.apache.http.client.methods.HttpPost.<init>(HttpPost.java:73) ~[httpclient-4.5.11.jar:4.5.11]
+	at inter.HttpClientKw.doPost(HttpClientKw.java:215) ~[classes/:?]
+	... 1 more
+15:58:03  [INFO ] : login接口返回信息是java.lang.IllegalArgumentException: Illegal character in scheme name at index 0:  http://www.testingedu.com.cn:8081/inter/HTTP/login

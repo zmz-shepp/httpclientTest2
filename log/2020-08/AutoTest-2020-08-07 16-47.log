@@ -1,0 +1,3 @@
+16:47:39  [INFO ] : auth接口的返回信息{"status":200,"msg":"success","token":"2f54b16acfc94b1ea65b71eabeb4dc28"}
+16:47:39  [INFO ] : token的值是2f54b16acfc94b1ea65b71eabeb4dc28
+16:47:39  [INFO ] : register注册接口返回{"status":401,"msg":"用户已被注册"}

@@ -1,0 +1,9 @@
+14:28:09  [INFO ] : auth接口的返回信息{"status":200,"msg":"success","token":"722eab4958464d1aba2ffe1c3e62a887"}
+14:28:09  [INFO ] : 测试失败
+14:28:09  [INFO ] : register注册接口返回{"status":200,"msg":"注册成功"}
+14:28:09  [INFO ] : 测试成功
+14:28:09  [INFO ] : login接口返回信息是{"status":200,"msg":"恭喜您，登录成功","userid":"1449"}
+14:28:09  [INFO ] : 测试成功
+14:28:09  [INFO ] : {"status":200,"msg":"查询成功","nickname":"117","id":"1449","describe":"557"}
+14:28:09  [INFO ] : 测试成功
+14:28:09  [INFO ] : {"status":200,"msg":"用户已退出登录"}

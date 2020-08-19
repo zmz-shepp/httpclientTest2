@@ -1,0 +1,26 @@
+16:22:06  [ERROR] : org.apache.http.client.ClientProtocolException
+org.apache.http.client.ClientProtocolException: null
+	at inter.HttpClientKw.doPost(HttpClientKw.java:252) [classes/:?]
+	at post.TestingLoginTest.main(TestingLoginTest.java:12) [classes/:?]
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108) ~[httpclient-4.5.11.jar:4.5.11]
+	at inter.HttpClientKw.doPost(HttpClientKw.java:237) ~[classes/:?]
+	... 1 more
+16:22:06  [INFO ] : auth接口的返回信息org.apache.http.client.ClientProtocolException
+16:22:51  [ERROR] : org.apache.http.client.ClientProtocolException
+org.apache.http.client.ClientProtocolException: null
+	at inter.HttpClientKw.doPost(HttpClientKw.java:252) [classes/:?]
+	at post.TestingLoginTest.main(TestingLoginTest.java:12) [classes/:?]
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.11.jar:4.5.11]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108) ~[httpclient-4.5.11.jar:4.5.11]
+	at inter.HttpClientKw.doPost(HttpClientKw.java:237) ~[classes/:?]
+	... 1 more
+16:22:51  [INFO ] : auth接口的返回信息org.apache.http.client.ClientProtocolException

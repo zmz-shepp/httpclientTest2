@@ -1,0 +1,76 @@
+10:39:32  [DEBUG] : CookieSpec selected: default
+10:39:32  [DEBUG] : Auth cache not set in the context
+10:39:32  [DEBUG] : Connection request: [route: {}->http://www.testingedu.com.cn:8000][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+10:39:32  [DEBUG] : Connection leased: [id: 0][route: {}->http://www.testingedu.com.cn:8000][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+10:39:32  [DEBUG] : Opening connection {}->http://www.testingedu.com.cn:8000
+10:39:32  [DEBUG] : Connecting to www.testingedu.com.cn/47.105.110.138:8000
+10:39:32  [DEBUG] : Connection established 192.168.100.116:54075<->47.105.110.138:8000
+10:39:32  [DEBUG] : Executing request POST /index.php?m=Home&c=User&a=do_login&t=0.31671045103291373 HTTP/1.1
+10:39:32  [DEBUG] : Target auth state: UNCHALLENGED
+10:39:32  [DEBUG] : Proxy auth state: UNCHALLENGED
+10:39:32  [DEBUG] : http-outgoing-0 >> POST /index.php?m=Home&c=User&a=do_login&t=0.31671045103291373 HTTP/1.1
+10:39:32  [DEBUG] : http-outgoing-0 >> Content-Length: 50
+10:39:32  [DEBUG] : http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+10:39:32  [DEBUG] : http-outgoing-0 >> Content-Encoding: UTF-8
+10:39:32  [DEBUG] : http-outgoing-0 >> Host: www.testingedu.com.cn:8000
+10:39:32  [DEBUG] : http-outgoing-0 >> Connection: Keep-Alive
+10:39:32  [DEBUG] : http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)
+10:39:32  [DEBUG] : http-outgoing-0 >> Accept-Encoding: gzip,deflate
+10:39:32  [DEBUG] : http-outgoing-0 >> "POST /index.php?m=Home&c=User&a=do_login&t=0.31671045103291373 HTTP/1.1[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 >> "Content-Length: 50[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 >> "Content-Encoding: UTF-8[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 >> "Host: www.testingedu.com.cn:8000[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_181)[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 >> "[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 >> "username=13800138006&password=123456&verify_code=1"
+10:39:32  [DEBUG] : http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 << "Server: nginx/1.14.1[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 << "Date: Wed, 05 Aug 2020 02:39:33 GMT[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 << "X-Powered-By: PHP/7.0.33[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 << "Set-Cookie: is_mobile=0; expires=Wed, 05-Aug-2020 03:39:32 GMT; Max-Age=3600; path=/[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 << "Set-Cookie: PHPSESSID=2bqfgef5s4k19c7udl46sgo6s7; path=/[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 << "Cache-Control: no-store, no-cache, must-revalidate[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 << "Set-Cookie: user_id=8; path=/[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 << "Set-Cookie: is_distribut=0; path=/[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 << "Set-Cookie: uname=%25E5%258D%2595%25E8%25BA%25AB%25E7%259A%2584will; path=/[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 << "Set-Cookie: cn=0; expires=Wed, 05-Aug-2020 01:39:33 GMT; Max-Age=0; path=/[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 << "[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 << "391[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 << "{"status":1,"msg":"\u767b\u9646\u6210\u529f","result":{"user_id":8,"email":"","password":"519475228fe35ad067744465c42a19b2","paypwd":"519475228fe35ad067744465c42a19b2","sex":0,"birthday":-743245200,"user_money":"0.00","frozen_money":"0.00","distribut_money":"0.00","underling_number":0,"pay_points":140,"address_id":0,"reg_time":1523857661,"last_login":0,"last_ip":"","qq":"","mobile":"13800138006","mobile_validated":1,"oauth":"","openid":null,"unionid":null,"head_pic":"\/public\/upload\/user\/8\/head_pic\/\/836df0a5cd22a8eacbb32385208dfbed.jpg","province":0,"city":0,"district":0,"email_validated":0,"nickname":"\u5355\u8eab\u7684will","level":2,"discount":"1.00","total_amount":"0.00","is_lock":0,"is_distribut":0,"first_leader":3,"second_leader":0,"third_leader":0,"token":"","message_mask":63,"push_id":"190e35f7e07c8658ec6","distribut_level":0,"is_vip":0,"level_name":"\u5014\u5f3a\u9752\u94dc"},"url":""}[\r][\n]"
+10:39:32  [DEBUG] : http-outgoing-0 << HTTP/1.1 200 OK
+10:39:32  [DEBUG] : http-outgoing-0 << Server: nginx/1.14.1
+10:39:32  [DEBUG] : http-outgoing-0 << Date: Wed, 05 Aug 2020 02:39:33 GMT
+10:39:32  [DEBUG] : http-outgoing-0 << Content-Type: text/html; charset=UTF-8
+10:39:32  [DEBUG] : http-outgoing-0 << Transfer-Encoding: chunked
+10:39:32  [DEBUG] : http-outgoing-0 << Connection: keep-alive
+10:39:32  [DEBUG] : http-outgoing-0 << X-Powered-By: PHP/7.0.33
+10:39:32  [DEBUG] : http-outgoing-0 << Set-Cookie: is_mobile=0; expires=Wed, 05-Aug-2020 03:39:32 GMT; Max-Age=3600; path=/
+10:39:32  [DEBUG] : http-outgoing-0 << Set-Cookie: PHPSESSID=2bqfgef5s4k19c7udl46sgo6s7; path=/
+10:39:32  [DEBUG] : http-outgoing-0 << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+10:39:32  [DEBUG] : http-outgoing-0 << Cache-Control: no-store, no-cache, must-revalidate
+10:39:32  [DEBUG] : http-outgoing-0 << Pragma: no-cache
+10:39:32  [DEBUG] : http-outgoing-0 << Set-Cookie: user_id=8; path=/
+10:39:32  [DEBUG] : http-outgoing-0 << Set-Cookie: is_distribut=0; path=/
+10:39:32  [DEBUG] : http-outgoing-0 << Set-Cookie: uname=%25E5%258D%2595%25E8%25BA%25AB%25E7%259A%2584will; path=/
+10:39:32  [DEBUG] : http-outgoing-0 << Set-Cookie: cn=0; expires=Wed, 05-Aug-2020 01:39:33 GMT; Max-Age=0; path=/
+10:39:32  [DEBUG] : Connection can be kept alive indefinitely
+10:39:33  [DEBUG] : Cookie accepted [is_mobile="0", version:0, domain:www.testingedu.com.cn, path:/, expiry:Wed Aug 05 11:39:32 CST 2020]
+10:39:33  [DEBUG] : Cookie accepted [PHPSESSID="2bqfgef5s4k19c7udl46sgo6s7", version:0, domain:www.testingedu.com.cn, path:/, expiry:null]
+10:39:33  [DEBUG] : Cookie accepted [user_id="8", version:0, domain:www.testingedu.com.cn, path:/, expiry:null]
+10:39:33  [DEBUG] : Cookie accepted [is_distribut="0", version:0, domain:www.testingedu.com.cn, path:/, expiry:null]
+10:39:33  [DEBUG] : Cookie accepted [uname="%25E5%258D%2595%25E8%25BA%25AB%25E7%259A%2584will", version:0, domain:www.testingedu.com.cn, path:/, expiry:null]
+10:39:33  [DEBUG] : Cookie accepted [cn="0", version:0, domain:www.testingedu.com.cn, path:/, expiry:Wed Aug 05 09:39:33 CST 2020]
+10:39:33  [DEBUG] : http-outgoing-0 << "0[\r][\n]"
+10:39:33  [DEBUG] : http-outgoing-0 << "[\r][\n]"
+10:39:33  [DEBUG] : Connection [id: 0][route: {}->http://www.testingedu.com.cn:8000] can be kept alive indefinitely
+10:39:33  [DEBUG] : http-outgoing-0: set socket timeout to 0
+10:39:33  [DEBUG] : Connection released: [id: 0][route: {}->http://www.testingedu.com.cn:8000][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+10:39:33  [INFO ] : 返回结果是{"status":1,"msg":"\u767b\u9646\u6210\u529f","result":{"user_id":8,"email":"","password":"519475228fe35ad067744465c42a19b2","paypwd":"519475228fe35ad067744465c42a19b2","sex":0,"birthday":-743245200,"user_money":"0.00","frozen_money":"0.00","distribut_money":"0.00","underling_number":0,"pay_points":140,"address_id":0,"reg_time":1523857661,"last_login":0,"last_ip":"","qq":"","mobile":"13800138006","mobile_validated":1,"oauth":"","openid":null,"unionid":null,"head_pic":"\/public\/upload\/user\/8\/head_pic\/\/836df0a5cd22a8eacbb32385208dfbed.jpg","province":0,"city":0,"district":0,"email_validated":0,"nickname":"\u5355\u8eab\u7684will","level":2,"discount":"1.00","total_amount":"0.00","is_lock":0,"is_distribut":0,"first_leader":3,"second_leader":0,"third_leader":0,"token":"","message_mask":63,"push_id":"190e35f7e07c8658ec6","distribut_level":0,"is_vip":0,"level_name":"\u5014\u5f3a\u9752\u94dc"},"url":""}

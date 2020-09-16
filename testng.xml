@@ -9,10 +9,16 @@
        <test name="test2">
             <classes>
                 <class name="Mail.b"></class>
-                <class name="Writer.ExcelWriterTest"></class>
+
             </classes>  
        </test>
 
+    <test name="test3">
+        <classes>
+
+            <class name="Writer.ExcelWriterTest"></class>
+        </classes>
+    </test>
 
 
 </suite>

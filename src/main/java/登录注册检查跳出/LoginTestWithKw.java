@@ -1,9 +1,10 @@
 package 登录注册检查跳出;
 
 import inter.KeywordOfInter;
+import org.testng.annotations.Test;
 
 
-
+@Test
 public class LoginTestWithKw {
     public static void main(String[] args) {
         KeywordOfInter key=new KeywordOfInter();

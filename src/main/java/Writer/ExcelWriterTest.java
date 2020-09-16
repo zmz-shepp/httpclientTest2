@@ -3,27 +3,33 @@ package Writer;
 import common.AutoLogger;
 import common.ExcelReader;
 import common.ExcelWriter;
+import common.Report;
 import inter.KeywordOfInter;
+import org.testng.annotations.Test;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
+
 public class ExcelWriterTest {
 
     public static KeywordOfInter inter = new KeywordOfInter();
 
-    public static void main(String[] args) {
+     @Test
+    public  void main() {
 
         //打开excel文件，读取workbook对象
-        ExcelReader cases = new ExcelReader("E:\\httpclient\\cases\\HTTPLogin.xlsx");
+        ExcelReader cases = new ExcelReader("E:\\httpclientTest\\cases\\HTTPLogin.xlsx");
 
-        //添加时间戳
+        //添加时间戳 ，开始时间在这里，你要么就把这个时间丢过去
+
         SimpleDateFormat sdf=new SimpleDateFormat("yyyyMMdd-HHmm");
         Date now=new Date();
         String nowTime=sdf.format(now);
-        ExcelWriter  res=new ExcelWriter( "E:\\httpclient\\cases\\HTTPLogin.xlsx","E:\\httpclient\\cases\\成功788888"+nowTime+".xlsx");
-
+        SimpleDateFormat timef=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String fstime=timef.format(now);
+        ExcelWriter  res=new ExcelWriter( "E:\\httpclientTest\\cases\\HTTPLogin.xlsx","E:\\httpclientTest\\cases\\999999999999"+nowTime+".xlsx");
 
 
 
@@ -74,6 +80,11 @@ public class ExcelWriterTest {
                         default:
                             AutoLogger.log.info("没有匹配到关键字");
                             break;
+
+
+
+
+
                     }
 
                     switch (rowContent.get(7)) {
@@ -93,6 +104,10 @@ public class ExcelWriterTest {
 
             }
         }
-         res.save();
+        res.save();
+        Report ad=new Report();
+        ad.sendreport("E:\\httpclientTest\\cases\\999999999999"+nowTime+".xlsx",fstime);
+
+        //System.out.println("allure生成报告--mvn io.qameta.allure:allure-maven:serve");
     }
 }

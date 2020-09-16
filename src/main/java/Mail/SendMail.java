@@ -20,13 +20,13 @@ public class SendMail {
 	// 网易163邮箱的 SMTP 服务器地址为: smtp.163.com QQ邮箱为smtp.qq.com 在各大邮箱的设置中能够找到。
 	public String myEmailSMTPHost = "smtp.qq.com";
 	// 收件人邮箱（替换为自己知道的有效邮箱）
-	public String receiveMailAccount = "zhangmuzhuo969@163.com";
+	public String receiveMailAccount = "zhangmuzhuo969@163.com,2956197249@qq.com,773807091@qq.com";
 	// 昵称,尽量设定，避免被识别为垃圾邮件  发件人信息
 	public String nickname="张慕卓";
 	// 抄送名单
 	public String copyMailAccount = "";
 	// 标题
-	public String title = "我的第一次邮箱测试报告！";
+	public String title = "邮箱测试报告！";
 	// 属性
 	public Properties props;
 

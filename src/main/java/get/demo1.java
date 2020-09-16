@@ -5,10 +5,12 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
+import org.testng.annotations.Test;
 
 import java.io.IOException;
 
 public class demo1 {
+    @Test
     public static void main(String[] args) throws IOException {
         /**
          * 星座运势免费

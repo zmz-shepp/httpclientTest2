@@ -13,7 +13,7 @@ public class ExcelReaderTest {
     public static void main(String[] args) {
 
         //打开excel文件，读取workbook对象
-        ExcelReader cases = new ExcelReader("E:\\httpclient\\cases\\HTTPLogin.xlsx");
+        ExcelReader cases = new ExcelReader("E:\\httpclientTest\\cases\\HTTPLogin.xlsx");
         //遍历sheet页,基于sheet页个数进行遍历
         for (int sheetIndex = 0; sheetIndex < cases.getTotalSheetNo(); sheetIndex++) {
             //指定使用当前的sheet页

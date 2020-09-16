@@ -1,0 +1,374 @@
+16:12:04  [INFO ] : 没有匹配到关键字
+16:12:04  [INFO ] : 没有匹配到关键字
+16:12:04  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"056e72e21c054acab1ba71579be09cb4"}
+16:12:05  [INFO ] : 测试通过！
+16:12:05  [INFO ] : 外部断言通过
+16:12:05  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"30d2c4138d7a4090896b45011ea301c8"}
+16:12:05  [INFO ] : 测试通过！
+16:12:05  [INFO ] : 外部断言通过
+16:12:05  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"e818abd8444b4cd38c42a2801644f1ae"}
+16:12:05  [INFO ] : 测试通过！
+16:12:05  [INFO ] : 外部断言通过
+16:12:05  [INFO ] : 没有匹配到关键字
+16:12:05  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"324aab4c0f9247e1a9056d1724c22e6e"}
+16:12:05  [INFO ] : 测试通过！
+16:12:05  [INFO ] : 外部断言通过
+16:12:05  [INFO ] : 在keyword中调试输出返回的结果是{"status":201,"msg":"success"}
+16:12:05  [INFO ] : 测试失败！
+16:12:05  [INFO ] : 外部断言失败
+16:12:05  [INFO ] : 没有匹配到关键字
+16:12:05  [INFO ] : 没有匹配到关键字
+16:12:05  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+16:12:05  [INFO ] : 测试通过！
+16:12:05  [INFO ] : 外部断言通过
+16:12:05  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+16:12:05  [INFO ] : 测试通过！
+16:12:05  [INFO ] : 外部断言通过
+16:12:05  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+16:12:05  [INFO ] : 测试通过！
+16:12:05  [INFO ] : 外部断言通过
+16:12:05  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+16:12:05  [INFO ] : 测试通过！
+16:12:05  [INFO ] : 外部断言通过
+16:12:05  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"b86d71948a024068ba60b13e6fb8d1f7"}
+16:12:05  [INFO ] : 测试通过！
+16:12:05  [INFO ] : 外部断言通过
+16:12:05  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+16:12:05  [INFO ] : 测试通过！
+16:12:05  [INFO ] : 外部断言通过
+16:12:05  [INFO ] : 在keyword中调试输出返回的结果是{"status":406,"msg":"用户已经在别处登录"}
+16:12:05  [INFO ] : 测试通过！
+16:12:05  [INFO ] : 外部断言通过
+16:12:05  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+16:12:05  [INFO ] : 测试通过！
+16:12:05  [INFO ] : 外部断言通过
+16:12:05  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"dbb16d0f474346b7b5d986295f20d191"}
+16:12:05  [INFO ] : 测试通过！
+16:12:05  [INFO ] : 外部断言通过
+16:12:05  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+16:12:05  [ERROR] : 解析失败，请检查jsonPath表达式
+16:12:05  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:84) [classes/:?]
+16:12:05  [INFO ] : 外部断言失败
+16:12:05  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:05  [INFO ] : 测试通过！
+16:12:05  [INFO ] : 外部断言通过
+16:12:05  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+16:12:05  [ERROR] : 解析失败，请检查jsonPath表达式
+16:12:05  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:84) [classes/:?]
+16:12:05  [INFO ] : 外部断言失败
+16:12:05  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1771"}
+16:12:05  [INFO ] : 测试失败！
+16:12:05  [INFO ] : 外部断言失败
+16:12:05  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1772"}
+16:12:05  [INFO ] : 测试失败！
+16:12:05  [INFO ] : 外部断言失败
+16:12:05  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:05  [INFO ] : 测试通过！
+16:12:05  [INFO ] : 外部断言通过
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+16:12:06  [INFO ] : 测试通过！
+16:12:06  [INFO ] : 外部断言通过
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+16:12:06  [INFO ] : 测试通过！
+16:12:06  [INFO ] : 外部断言通过
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:06  [INFO ] : 测试通过！
+16:12:06  [INFO ] : 外部断言通过
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:06  [INFO ] : 测试通过！
+16:12:06  [INFO ] : 外部断言通过
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+16:12:06  [ERROR] : 解析失败，请检查jsonPath表达式
+16:12:06  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:84) [classes/:?]
+16:12:06  [INFO ] : 外部断言失败
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:06  [INFO ] : 测试通过！
+16:12:06  [INFO ] : 外部断言通过
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+16:12:06  [ERROR] : 解析失败，请检查jsonPath表达式
+16:12:06  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:84) [classes/:?]
+16:12:06  [INFO ] : 外部断言失败
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+16:12:06  [INFO ] : 测试通过！
+16:12:06  [INFO ] : 外部断言通过
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+16:12:06  [INFO ] : 测试通过！
+16:12:06  [INFO ] : 外部断言通过
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:06  [INFO ] : 测试通过！
+16:12:06  [INFO ] : 外部断言通过
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+16:12:06  [INFO ] : 测试通过！
+16:12:06  [INFO ] : 外部断言通过
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+16:12:06  [INFO ] : 测试通过！
+16:12:06  [INFO ] : 外部断言通过
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:06  [INFO ] : 测试通过！
+16:12:06  [INFO ] : 外部断言通过
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:06  [INFO ] : 测试通过！
+16:12:06  [INFO ] : 外部断言通过
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+16:12:06  [ERROR] : 解析失败，请检查jsonPath表达式
+16:12:06  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.16</h3></body></html>
+	at inter.KeywordOfInter.assertSame(KeywordOfInter.java:157) [classes/:?]
+	at Writer.ExcelWriterTest.main(ExcelWriterTest.java:84) [classes/:?]
+16:12:06  [INFO ] : 外部断言失败
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+16:12:06  [INFO ] : 测试通过！
+16:12:06  [INFO ] : 外部断言通过
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"4a5e742019e44846b0187bd8daa0d09b"}
+16:12:06  [INFO ] : 测试通过！
+16:12:06  [INFO ] : 外部断言通过
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+16:12:06  [INFO ] : 测试通过！
+16:12:06  [INFO ] : 外部断言通过
+16:12:06  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+16:12:06  [INFO ] : 测试通过！
+16:12:06  [INFO ] : 外部断言通过
+16:12:07  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+16:12:07  [INFO ] : 测试通过！
+16:12:07  [INFO ] : 外部断言通过
+16:12:07  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+16:12:07  [INFO ] : 测试通过！
+16:12:07  [INFO ] : 外部断言通过
+16:12:07  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+16:12:07  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"149e29aa4cec4004aa9d9ac6851f8d7b"}
+16:12:07  [INFO ] : 测试通过！
+16:12:07  [INFO ] : 外部断言通过
+16:12:07  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+16:12:07  [INFO ] : 测试通过！
+16:12:07  [INFO ] : 外部断言通过
+16:12:07  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+16:12:07  [INFO ] : 测试通过！
+16:12:07  [INFO ] : 外部断言通过
+16:12:07  [INFO ] : 没有匹配到关键字
+16:12:07  [INFO ] : 没有匹配到关键字
+16:12:07  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+16:12:07  [INFO ] : 测试通过！
+16:12:07  [INFO ] : 外部断言通过
+16:12:07  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+16:12:07  [INFO ] : 测试通过！
+16:12:07  [INFO ] : 外部断言通过
+16:12:07  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+16:12:07  [INFO ] : 测试通过！
+16:12:07  [INFO ] : 外部断言通过
+16:12:07  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+16:12:07  [INFO ] : 测试通过！
+16:12:07  [INFO ] : 外部断言通过
+16:12:07  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"e5d84b97fb44462b82c607fac3d59a89"}
+16:12:07  [INFO ] : 测试失败！
+16:12:07  [INFO ] : 外部断言失败
+16:12:07  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+16:12:07  [INFO ] : 测试失败！
+16:12:07  [INFO ] : 外部断言失败
+16:12:07  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+16:12:07  [INFO ] : 测试通过！
+16:12:07  [INFO ] : 外部断言通过
+16:12:07  [INFO ] : 在keyword中调试输出返回的结果是{"status":406,"msg":"登录状态，不能注册"}
+16:12:07  [INFO ] : 测试通过！
+16:12:07  [INFO ] : 外部断言通过
+16:12:07  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+16:12:07  [INFO ] : 没有匹配到关键字
+16:12:07  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"053378a091c6453796c2426a188d87c9"}
+16:12:07  [INFO ] : 测试通过！
+16:12:07  [INFO ] : 外部断言通过
+16:12:07  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:07  [INFO ] : 测试通过！
+16:12:07  [INFO ] : 外部断言通过
+16:12:07  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:07  [INFO ] : 测试通过！
+16:12:07  [INFO ] : 外部断言通过
+16:12:07  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:07  [INFO ] : 测试失败！
+16:12:07  [INFO ] : 外部断言失败
+16:12:08  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+16:12:08  [INFO ] : 测试失败！
+16:12:08  [INFO ] : 外部断言失败
+16:12:08  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+16:12:08  [INFO ] : 测试失败！
+16:12:08  [INFO ] : 外部断言失败
+16:12:08  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1772"}
+16:12:08  [INFO ] : 测试失败！
+16:12:08  [INFO ] : 外部断言失败
+16:12:08  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+16:12:08  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"883f91b0ae704894a45aa70f31c5e4a8"}
+16:12:08  [INFO ] : 测试通过！
+16:12:08  [INFO ] : 外部断言通过
+16:12:08  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:08  [INFO ] : 测试通过！
+16:12:08  [INFO ] : 外部断言通过
+16:12:08  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+16:12:08  [INFO ] : 测试失败！
+16:12:08  [INFO ] : 外部断言失败
+16:12:08  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+16:12:08  [INFO ] : 测试失败！
+16:12:08  [INFO ] : 外部断言失败
+16:12:08  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:08  [INFO ] : 测试通过！
+16:12:08  [INFO ] : 外部断言通过
+16:12:08  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:08  [INFO ] : 测试通过！
+16:12:08  [INFO ] : 外部断言通过
+16:12:08  [INFO ] : 没有匹配到关键字
+16:12:08  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"f5eb4ec8ce884aaba398c4cd325e4707"}
+16:12:08  [INFO ] : 测试通过！
+16:12:08  [INFO ] : 外部断言通过
+16:12:08  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:08  [INFO ] : 测试通过！
+16:12:08  [INFO ] : 外部断言通过
+16:12:08  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:08  [INFO ] : 测试通过！
+16:12:08  [INFO ] : 外部断言通过
+16:12:08  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:08  [INFO ] : 测试失败！
+16:12:08  [INFO ] : 外部断言失败
+16:12:08  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+16:12:08  [INFO ] : 测试失败！
+16:12:08  [INFO ] : 外部断言失败
+16:12:08  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+16:12:08  [INFO ] : 测试失败！
+16:12:08  [INFO ] : 外部断言失败
+16:12:08  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户名密码错误"}
+16:12:08  [INFO ] : 测试通过！
+16:12:08  [INFO ] : 外部断言通过
+16:12:08  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+16:12:08  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"27c6f6ae15664dc69565c4e45f4fc0fb"}
+16:12:08  [INFO ] : 测试通过！
+16:12:08  [INFO ] : 外部断言通过
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:09  [INFO ] : 测试通过！
+16:12:09  [INFO ] : 外部断言通过
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+16:12:09  [INFO ] : 测试失败！
+16:12:09  [INFO ] : 外部断言失败
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+16:12:09  [INFO ] : 测试失败！
+16:12:09  [INFO ] : 外部断言失败
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:09  [INFO ] : 测试通过！
+16:12:09  [INFO ] : 外部断言通过
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:09  [INFO ] : 测试通过！
+16:12:09  [INFO ] : 外部断言通过
+16:12:09  [INFO ] : 没有匹配到关键字
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"6c2fa82aa8814873be177484e6198a0c"}
+16:12:09  [INFO ] : 测试通过！
+16:12:09  [INFO ] : 外部断言通过
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:09  [INFO ] : 测试通过！
+16:12:09  [INFO ] : 外部断言通过
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:09  [INFO ] : 测试通过！
+16:12:09  [INFO ] : 外部断言通过
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:09  [INFO ] : 测试失败！
+16:12:09  [INFO ] : 外部断言失败
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+16:12:09  [INFO ] : 测试失败！
+16:12:09  [INFO ] : 外部断言失败
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+16:12:09  [INFO ] : 测试失败！
+16:12:09  [INFO ] : 外部断言失败
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1712"}
+16:12:09  [INFO ] : 测试失败！
+16:12:09  [INFO ] : 外部断言失败
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"b93006333f28474a96d419ec540637cc"}
+16:12:09  [INFO ] : 测试通过！
+16:12:09  [INFO ] : 外部断言通过
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:09  [INFO ] : 测试通过！
+16:12:09  [INFO ] : 外部断言通过
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+16:12:09  [INFO ] : 测试失败！
+16:12:09  [INFO ] : 外部断言失败
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+16:12:09  [INFO ] : 测试失败！
+16:12:09  [INFO ] : 外部断言失败
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:09  [INFO ] : 测试通过！
+16:12:09  [INFO ] : 外部断言通过
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":402,"msg":"参数错误"}
+16:12:09  [INFO ] : 测试通过！
+16:12:09  [INFO ] : 外部断言通过
+16:12:09  [INFO ] : 没有匹配到关键字
+16:12:09  [INFO ] : 没有匹配到关键字
+16:12:09  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+16:12:09  [INFO ] : 测试通过！
+16:12:09  [INFO ] : 外部断言通过
+16:12:10  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+16:12:10  [INFO ] : 测试通过！
+16:12:10  [INFO ] : 外部断言通过
+16:12:10  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+16:12:10  [INFO ] : 测试通过！
+16:12:10  [INFO ] : 外部断言通过
+16:12:10  [INFO ] : 在keyword中调试输出返回的结果是{"status":405,"msg":"非法请求"}
+16:12:10  [INFO ] : 测试通过！
+16:12:10  [INFO ] : 外部断言通过
+16:12:10  [INFO ] : 没有匹配到关键字
+16:12:10  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"ae38454d841c4ef2a1a8d6c469809146"}
+16:12:10  [INFO ] : 测试通过！
+16:12:10  [INFO ] : 外部断言通过
+16:12:10  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+16:12:10  [INFO ] : 测试通过！
+16:12:10  [INFO ] : 外部断言通过
+16:12:10  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"f3aa9dc3d41242348ba077128091548a"}
+16:12:10  [INFO ] : 测试通过！
+16:12:10  [INFO ] : 外部断言通过
+16:12:10  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1"}
+16:12:10  [INFO ] : 测试通过！
+16:12:10  [INFO ] : 外部断言通过
+16:12:10  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+16:12:10  [INFO ] : 测试通过！
+16:12:10  [INFO ] : 外部断言通过
+16:12:10  [INFO ] : 没有匹配到关键字
+16:12:10  [INFO ] : 没有匹配到关键字
+16:12:10  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"success","token":"5cef01cd043d453386583e0dcedd2c28"}
+16:12:10  [INFO ] : 测试通过！
+16:12:10  [INFO ] : 外部断言通过
+16:12:10  [INFO ] : 在keyword中调试输出返回的结果是{"status":401,"msg":"用户已被注册"}
+16:12:10  [INFO ] : 测试失败！
+16:12:10  [INFO ] : 外部断言失败
+16:12:10  [INFO ] : 没有匹配到关键字
+16:12:10  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"恭喜您，登录成功","userid":"1724"}
+16:12:10  [INFO ] : 测试通过！
+16:12:10  [INFO ] : 外部断言通过
+16:12:10  [INFO ] : 没有匹配到关键字
+16:12:10  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"查询成功","nickname":"测试账号","id":"1724","describe":"这个账号，是一个测试注册的账号"}
+16:12:10  [INFO ] : 测试通过！
+16:12:10  [INFO ] : 外部断言通过
+16:12:10  [INFO ] : 没有匹配到关键字
+16:12:10  [INFO ] : 在keyword中调试输出返回的结果是{"status":200,"msg":"用户已退出登录"}
+16:12:10  [INFO ] : 测试通过！
+16:12:10  [INFO ] : 外部断言通过

@@ -210,7 +210,7 @@ public class ExcelReader {
 			case NUMERIC: // 数字、日期
 				if (DateUtil.isCellDateFormatted(cell)) {
 					//日期型以年-月-日格式存储
-					SimpleDateFormat fmt = new SimpleDateFormat("yyyy-MM-dd");
+					SimpleDateFormat fmt = new SimpleDateFormat("yyyyMMdd-HHmm");
 					cellValue = fmt.format(cell.getDateCellValue()); 
 				} else {
 					//数字保留两位小数

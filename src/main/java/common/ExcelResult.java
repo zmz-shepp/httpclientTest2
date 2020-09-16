@@ -40,7 +40,7 @@ public class ExcelResult {
 			int detailpass = 0;
 			// 统计通过率
 			float passrate = 100f;
-			// 当开始进行统计时，用例执行已经完成，即为用例执行结束时间。
+			// 当开始进行统计时，用例执行已经完成，即为用例执行结束时间。    修改结束时间的地方
 			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 			String endtime = df.format(new Date());
 
